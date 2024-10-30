@@ -1,0 +1,36 @@
+.footer-container {
+    background-color: #28a745; /* Bootstrap's 'success' color */
+    padding: 40px 0;
+}
+
+.footer-section h5 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-link {
+    color: white; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #f8f9fa; /* Change to a lighter color on hover */
+}
+
+.footer-icon {
+    color: white;
+    margin: 0 10px; /* Spacing between icons */
+    transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+    color: #f8f9fa; /* Change to a lighter color on hover */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .footer-container {
+        text-align: center;
+    }
+}
