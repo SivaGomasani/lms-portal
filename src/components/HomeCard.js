@@ -36,7 +36,7 @@ function HomeCard() {
                 marginLeft: '100px', 
               }} 
               className="mt-2"
-              onClick={() => navigate('./courses')}
+              onClick={() => navigate('/courses')}
             >
               Explore Courses
             </Button>

@@ -56,7 +56,7 @@ const Home = () => {
                                         key={link}
                                         href="#"
                                         className="text-white"
-                                        onClick={() => navigate(link === 'Home' ? '/' : `/${link.toLowerCase()}`)}
+                                        onClick={() => navigate(link === 'Home' ? '/lms-portal' : `/${link.toLowerCase()}`)}
                                         onMouseEnter={() => setHoverIndex(index)}
                                         onMouseLeave={() => setHoverIndex(null)}
                                         style={linkStyles(hoverIndex === index)}

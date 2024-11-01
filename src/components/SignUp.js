@@ -43,7 +43,7 @@ function SignUp({ onToggle }) {
         localStorage.setItem('agree', agree);
         localStorage.setItem('profileImage', profileImage); // Save profile image to localStorage
         alert('Signup successful!');
-        navigate('/'); // Redirect to home page after signup
+        navigate('/lms-portal'); // Redirect to home page after signup
     };
 
     return (
